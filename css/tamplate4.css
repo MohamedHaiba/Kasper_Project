@@ -1,0 +1,912 @@
+/*star tools*/
+body {
+  background-color: white;
+  color: #908983;
+}
+
+.container {
+  width: 1140px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.style-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+
+.width-20 {
+  width: 20%;
+}
+.width-25 {
+  width: 25%;
+}
+.width-30 {
+  width: 30%;
+}
+.width-33 {
+  width: 33.333%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-60 {
+  width: 60%;
+}
+
+.width-70 {
+  width: 70%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-85 {
+  width: 85%;
+}
+.width-87 {
+  width: 87%;
+}
+.width-93 {
+  width: 93%;
+}
+.width-95 {
+  width: 95%;
+}
+.line {
+  border-bottom: 1px solid black;
+  width: 100px;
+  margin: auto;
+  position: relative;
+}
+
+.line .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  border: 1px solid black;
+  top: -5px;
+  left: 45px;
+}
+.over-lay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/*end tooles*/
+
+/* star section 1 */
+/* star world */
+.world {
+  background-image: url("../images/landing.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.world .header {
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  padding: 20px 0;
+}
+.navbar {
+  overflow: hidden;
+}
+
+.world .header hr {
+  margin: -2px 0 0 0;
+}
+.world .header .content-navbar .lists li {
+  list-style: none;
+  float: left;
+  padding: 7px;
+  line-height: 36px;
+}
+
+.world .header .content-navbar .lists li a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.world .header .content-navbar .lists li:hover,
+.world .header .content-navbar .lists li.active {
+  border-bottom: 1px solid #06a6d0;
+}
+
+.world .header .content-navbar .lists li:hover a,
+.world .header .content-navbar .lists li.active a {
+  color: #06a6d0;
+}
+.world .header .content-navbar {
+  overflow: hidden;
+}
+.world .header .content-navbar form {
+  overflow: hidden;
+  margin-top: 10px;
+}
+.world .header .content-navbar form:hover .input {
+  visibility: visible;
+}
+.world .header .content-navbar .input {
+  overflow: hidden;
+  visibility: hidden;
+}
+.world .header .content-navbar .border {
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+.world .header .content-navbar button {
+  padding: 5px 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  display: contents;
+}
+.world .header .content-navbar .fas {
+  color: white;
+}
+.world .hello {
+  overflow: hidden;
+  width: 60%;
+  height: 300px;
+  color: white;
+  margin-top: 10%;
+  background-color: rgba(39, 126, 152, 0.6);
+  position: relative;
+  z-index: 2;
+}
+.world .hello .content-hello h1 {
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.world .content-cricle {
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7%;
+  position: relative;
+  z-index: 2;
+}
+.world .content-cricle .circle-hello {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid white;
+  float: left;
+  margin-right: 5px;
+}
+.world .content-cricle .circle-hello.active {
+  background-color: #06a6d0;
+}
+/* end world */
+/* end section 1 */
+
+/* star section 2  */
+/* star services  */
+.services {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.services .content-services {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.services .content-services h2 {
+  text-transform: uppercase;
+  color: black;
+}
+.services .content-services p {
+  width: 600px;
+  margin: auto;
+  padding-top: 20px;
+}
+.services .content-four-element {
+  overflow: hidden;
+}
+.services .content-four-element .content-element {
+  overflow: hidden;
+  padding-right: 50px;
+}
+.services .content-four-element .content-element .image-intuitive {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.services .content-four-element .content-element .content-intuitive h3 {
+  color: #06a6d0;
+}
+/* end servises  */
+/* end section 2 */
+
+/* star section 3 */
+/* star our */
+.our {
+  background-image: url("../images/design-features.jpg");
+  height: 750px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.our .container {
+  overflow: hidden;
+}
+.our .image-mob {
+  padding-top: 76%;
+  position: relative;
+  z-index: 2;
+}
+.our .with {
+  overflow: hidden;
+  width: 50%;
+  height: 350px;
+  background-color: rgba(39, 126, 152, 0.8);
+  color: white;
+  float: right;
+  margin-top: -500px;
+  position: relative;
+  z-index: 2;
+}
+.our .with .content-with .content-h h3 {
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 9%;
+}
+.our .with .content-with .four-with .content-four .imag-with {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+/* end our */
+/* end section 3 */
+
+/* star section 4 */
+/* star portfolio */
+.portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.portfolio .content-port {
+  text-align: center;
+}
+.portfolio .content-port h2 {
+  text-transform: uppercase;
+  color: black;
+}
+.portfolio .content-port p {
+  width: 500px;
+  margin: auto;
+  padding-top: 20px;
+}
+.portfolio .content-linkes ul {
+  display: block;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.portfolio .content-linkes li {
+  list-style: none;
+  float: left;
+  padding: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.portfolio .content-linkes a {
+  text-decoration: none;
+  color: gray;
+  padding: 10px 15px;
+}
+.portfolio .content-linkes li:hover a,
+.portfolio .content-linkes li.active a {
+  background-color: #06a6d0;
+  color: white;
+}
+/* end portfolio */
+/* end section 4 */
+
+/* star section 5 */
+/* star more images */
+.more-images {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.more-images .eight-images {
+  overflow: hidden;
+}
+.more-images .eight-images .image {
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.more-images .eight-images .over-lay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.more-images .eight-images .image .over-lay .circle-lay {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  border: 2px solid #06a6d0;
+  margin-top: 20%;
+  margin-left: 35%;
+  background-color: #06a6d0;
+}
+.more-images .eight-images .image .over-lay .circle-lay .img {
+  padding-top: 25%;
+  padding-left: 25%;
+}
+.more-images .eight-images .image .over-lay .content-circle {
+  background-color: rgba(254, 251, 252, 0.9);
+  padding-bottom: 24px;
+}
+.more-images .eight-images .image:hover .over-lay {
+  cursor: pointer;
+  display: block;
+}
+.more-images .eight-images .over-lay h3,
+.more-images .eight-images .over-lay p {
+  margin-left: 30px;
+}
+.more-images .eight-images .over-lay h3 {
+  margin-top: 50%;
+  color: black;
+}
+.more-images .eight-images .over-lay p {
+  color: #06a6d0;
+}
+.more-images .more-button {
+  text-align: center;
+}
+.more-images .more-button button {
+  border: 1px solid #06a6d0;
+  padding: 10px 50px;
+  background-color: #06a6d0;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+}
+.more-images .more-button button:hover {
+  background-color: transparent;
+  color: black;
+}
+/* end more images */
+/* end section 5 */
+
+/* star section 6 */
+/* star super */
+.super {
+  margin-top: 50px;
+  position: relative;
+}
+.super video {
+  width: 100%;
+}
+.super .content {
+  text-align: center;
+  background-color: rgba(39, 126, 152, 0.6);
+  padding: 15px;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+}
+.super .content h2 {
+  text-transform: uppercase;
+  color: white;
+}
+.super .content p {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.super .content button {
+  padding: 5px 25px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.super .content button:hover {
+  background-color: transparent;
+  color: black;
+}
+/* end super */
+/* end section 6 */
+
+/* star section 7 */
+/* star about */
+.about {
+  padding-top: 50px;
+}
+.about .content-about {
+  margin-bottom: 90px;
+}
+.about .content-about h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+.about .content-about p {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-top: 20px;
+}
+.about .content-image {
+  text-align: center;
+}
+/* end about */
+/* end section 7 */
+
+/* star section 8 */
+/* star number */
+.number {
+  background-image: url(../images/stats.png);
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -5px;
+  position: relative;
+}
+.number .row {
+  overflow: hidden;
+  margin-top: 20%;
+  background-color: rgba(39, 126, 152, 0.8);
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+}
+.number .container .image-number {
+  text-align: center;
+}
+.number .container .image-number img {
+  width: 40px;
+}
+.number .container .content-number {
+  color: white;
+  text-align: center;
+}
+.number .container .content-number span {
+  font-size: xx-large;
+}
+.number .container .content-number p {
+  font-size: small;
+}
+/* end number */
+/* end section 8 */
+
+/* star section 9 */
+/* star test */
+.test {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.test .container .row-testmon {
+  overflow: hidden;
+}
+.test .container .content-test1 {
+  text-align: center;
+}
+.test .container .content-test1 h2 {
+  text-transform: uppercase;
+  color: black;
+}
+.test .container .row-testmon .content-test2 {
+  padding-top: 70px;
+}
+.test .container .row-testmon .content-test2 .content-image .row-test {
+  overflow: hidden;
+}
+.test
+  .container
+  .row-testmon
+  .content-test2
+  .content-image
+  .row-test
+  .imag-test
+  img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.test
+  .container
+  .row-testmon
+  .content-test2
+  .content-image
+  .row-test
+  .content-pspan {
+  padding-left: 50px;
+}
+.test .container .row-testmon .content-test2 .content-image .row-test p {
+  max-width: 300px;
+  color: black;
+}
+.test .container .row-testmon .content-test2 .content-image .row-test span {
+  float: right;
+}
+.test .container .row-testmon .content-test3 .content-circle-test {
+  text-align: center;
+  padding-left: 30%;
+}
+.test .container .row-testmon .content-test3 .content-circle-test .circle-test {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: inline-block;
+}
+.test
+  .container
+  .row-testmon
+  .content-test3
+  .content-circle-test
+  .circle-test.active {
+  background-color: #06a6d0;
+}
+.test .container .row-testmon .content-skills-lines {
+  padding-left: 25%;
+}
+.test .container .row-testmon .content-skills {
+  text-align: center;
+  padding-bottom: 10%;
+}
+.test .container .row-testmon .content-skills h2 {
+  text-transform: uppercase;
+  color: black;
+}
+.test .container .row-testmon .content-skills p {
+  max-width: 600px;
+}
+.test .container .row-testmon .content-lines .line-skill h4 {
+  text-transform: uppercase;
+}
+.test .container .row-testmon .content-lines .parent {
+  height: 20px;
+  background-color: #908983;
+}
+.test .container .row-testmon .content-lines .parent .child {
+  height: 20px;
+  background-color: #06a6d0;
+  position: relative;
+}
+.test .container .row-testmon .content-lines .parent .child .percent {
+  position: absolute;
+  right: 10px;
+  color: white;
+  top: -18px;
+  background-color: black;
+}
+/* end test */
+/* end section 9 */
+
+/* satr section 10 */
+/* star est our */
+.est-our {
+  background-image: url(../images/quote.jpg);
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.est-our .content-est {
+  text-align: center;
+  padding-top: 20%;
+  color: white;
+  font-size: x-large;
+  position: relative;
+  z-index: 2;
+}
+.est-our .content-est span {
+  font-size: large;
+}
+/* end est our */
+/* end section 10 */
+
+/* star section 11 */
+/* star pricing */
+.pricing {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.pricing .content-pr-hp {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.pricing .content-pr-hp h2 {
+  text-transform: uppercase;
+  color: black;
+}
+.pricing .content-pr-hp p {
+  padding-bottom: 0px;
+}
+.pricing .container .row-pr1 {
+  overflow: hidden;
+}
+.pricing .content-row-pr1 .header {
+  margin: 10px;
+  border-top: 2px solid #06a6d0;
+  border-bottom: 2px solid #06a6d0;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.pricing .content-row-pr1 .header h3 {
+  text-transform: uppercase;
+}
+.pricing .content-row-pr1 .header sup {
+  color: black;
+  top: -30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.pricing .content-row-pr1 .header .numbers {
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+}
+.pricing .content-row-pr1 .header sub {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+}
+.pricing .content-row-pr1 .features {
+  padding: 0px 75px;
+  border-bottom: 2px solid #06a6d0;
+  margin: 10px;
+}
+.pricing .content-row-pr1 .features p {
+  text-align: center;
+  border-bottom: 2px solid #06a6d0;
+  padding-bottom: 10px;
+  color: black;
+}
+.pricing .content-row-pr1 .features p:last-child {
+  border-color: transparent;
+}
+.pricing .content-row-pr1 .footer {
+  padding-top: 20px;
+  text-align: center;
+}
+.pricing .content-row-pr1 .footer button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid #06a6d0;
+  cursor: pointer;
+}
+.pricing .content-row-pr1 .footer button:hover {
+  background-color: #06a6d0;
+  color: white;
+}
+.pricing .container .row-pr2 .content-pbut {
+  text-align: center;
+  padding-top: 90px;
+}
+.pricing .container .row-pr2 .content-pbut p {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 20px;
+}
+.pricing .container .row-pr2 .content-pbut button {
+  padding: 10px 30px;
+  border: 1px solid #06a6d0;
+  background-color: #06a6d0;
+  color: white;
+  cursor: pointer;
+}
+.pricing .container .row-pr2 .content-pbut button:hover {
+  background-color: transparent;
+  color: black;
+}
+/* end pricing */
+/* end section 11 */
+
+/* star section 12 */
+/* star your */
+.your {
+  background-image: url(../images/subscribe.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+  position: relative;
+}
+.your .row-your {
+  overflow: hidden;
+}
+.your .row-your .content-form-your {
+  padding-top: 40%;
+}
+.your .row-your .content-form-your .search {
+  position: relative;
+}
+.your .row-your .content-form-your .search input::placeholder {
+  color: #06a6d0;
+}
+.your .row-your .content-form-your input {
+  display: block;
+  width: 90%;
+  padding: 16px 0;
+  padding-left: 40px;
+  outline: 0px;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.your .row-your .content-form-your .fas {
+  color: #06a6d0;
+  position: absolute;
+  top: 19px;
+  padding-left: 15px;
+}
+.your .row-your .content-form-your button {
+  position: absolute;
+  top: 1px;
+  right: 16px;
+  padding: 15px 19px;
+  text-transform: uppercase;
+  background-color: #06a6d0;
+  border: 1px solid #06a6d0;
+  outline: 0px;
+  color: white;
+  cursor: pointer;
+}
+.your .row-your .content-form-your button:hover {
+  background-color: transparent;
+  color: black;
+}
+.your .row-your .content-p {
+  padding-top: 37%;
+  padding-left: 10px;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+/* end your */
+/* end section 12 */
+
+/* star section 13 */
+/* star contact us */
+.contact-us {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contact-us .content-us {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.contact-us .content-us h2 {
+  text-transform: uppercase;
+  color: black;
+}
+.contact-us .row-us {
+  overflow: hidden;
+}
+.contact-us .row-us .content-form-us input {
+  width: 90%;
+  padding: 15px 19px;
+  margin-bottom: 20px;
+}
+.contact-us .row-us .content-form-us input::placeholder {
+  color: black;
+}
+.contact-us .row-us .content-form-us textarea::placeholder {
+  color: black;
+  padding-left: 19px;
+}
+.contact-us .row-us .content-ph-us .content-ph-us1 {
+  margin-top: -10%;
+  padding-bottom: 25px;
+}
+.contact-us .row-us .content-ph-us .content-ph-us1 h4,
+.contact-us .row-us .content-ph-us .content-ph-us2 h4 {
+  text-transform: uppercase;
+  color: black;
+}
+.contact-us .content-but-us {
+  text-align: center;
+  padding-top: 50px;
+}
+.contact-us .content-but-us button {
+  border: 1px solid #06a6d0;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  background-color: #06a6d0;
+  color: white;
+  cursor: pointer;
+}
+.contact-us .content-but-us button:hover {
+  background-color: transparent;
+  color: black;
+}
+/* end contact us */
+/* end section 13 */
+
+/* star section 14 */
+/* star social */
+.social {
+  background-image: url(../images/subscribe.jpg);
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.social .content-social {
+  text-align: center;
+  padding-top: 25%;
+  position: relative;
+  z-index: 2;
+}
+.social .content-social .content-are .imag-are {
+  padding-bottom: 30px;
+}
+.social .content-social .content-are h3 {
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  width: 20%;
+  margin: auto;
+}
+.social .content-social .content-awe .fab {
+  color: white;
+  padding: 15px;
+}
+
+.social .content-social .content-awe .fa-facebook-f:hover {
+  color: #1094f4;
+}
+.social .content-social .content-awe .fa-twitter:hover {
+  color: #1094f4;
+}
+.social .content-social .content-awe .fa-google-plus-g:hover {
+  color: #1094f4;
+}
+.social .content-social .content-awe .fa-dribbble:hover {
+  color: #1094f4;
+}
+.social .content-social .content-p p {
+  color: white;
+  padding-top: 50px;
+}
+.social .content-social .content-p span {
+  color: #06a6d0;
+}
+/* end social */
+/* end section 14 */
